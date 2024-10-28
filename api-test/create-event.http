@@ -2,9 +2,9 @@ POST http://localhost:8080/events
 Content-Type: application/json
 
 {
-    "name": "Go Workshop",
-    "description": "A test event",
-    "location": "Test location",
+    "name": "Go Workshop 2",
+    "description": "A test event 2",
+    "location": "Test location 2",
     "dateTime": "2025-01-01T15:30:00.000Z"
 }
 
