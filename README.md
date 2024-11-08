@@ -1,4 +1,4 @@
-#GoLang - Authentication REST API with JWT
+# GoLang - Authentication REST API with JWT
 This Project is an authentication module built in GoLang.
 
 Create - Users
