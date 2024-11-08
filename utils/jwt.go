@@ -42,7 +42,7 @@ func VerifyToken(token string) (int64, error) {
 	//Example how to extract payload from the token
 	claims, ok := parsedToken.Claims.(jwt.MapClaims)
 	if !ok {
-		return 0, errors.New("invalid token claims.")
+		return 0, errors.New("invalid token claims")
 	}
 
 	//It shows how email and userId can be extracted from the token

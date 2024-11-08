@@ -1,11 +1,11 @@
 POST http://localhost:8080/events
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQHRlc3QuY29tIiwiZXhwIjoxNzMwOTY2MDMyLCJ1c2VySWQiOjJ9.wn14xAJL6Lq9uokpGF0sOJte4k1mTX1tPACrBIBhVk8
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE3MzA5Nzc1NzIsInVzZXJJZCI6MX0.ORTOIBUXV8ZA2OGtZQRNDzzpvuU1mqEUT4YidbqPMCU
 
 {
-    "name": "Go Workshop NEW UAU",
-    "description": "A test event NEW UAU",
-    "location": "Test location NEW Uau",
+    "name": "Go Workshop",
+    "description": "A test event",
+    "location": "Test location",
     "dateTime": "2025-01-01T15:30:00.000Z"
 }
 

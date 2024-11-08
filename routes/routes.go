@@ -14,6 +14,8 @@ func RegisterRoutes(server *gin.Engine) {
 	authenticated.POST("/events", createEvent)
 	authenticated.PUT("/events/:id", updateEvent)
 	authenticated.DELETE("/events/:id", deleteEvent)
+	authenticated.POST("/events/:id/register", RegisterForEvent)
+	authenticated.DELETE("/events/:id/register")
 
 	//server.POST("/events", middlewares.Authenticate, createEvent) - Example of one protected route at a time
 	server.POST("/signup", signup)
